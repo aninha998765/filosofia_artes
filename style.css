@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
+    background-image: url(img1.avif);
 }
 
 body * {
@@ -31,12 +32,10 @@ body * {
     color: #77ffc0;
 }
 
-.left-login-image {
-    font-size: 3vw;
-    width: 35vw;
-    background: image(img1.avif);
+img {
+    /* background-image: url(img1.avif); */
+    
 }
-
 .right-login {
     width: 50vw;
     height: 100vh;
