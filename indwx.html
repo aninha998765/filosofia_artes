@@ -13,20 +13,18 @@
             <h1>Faça login<br>E entre para o nosso Time!</h1>
             <img src="img1.avif"  alt="Developer">
         </div>
+
         <div class="right-login">
-            <div class="card-login">
-                <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Entre com sua senha">
-                </div>
-                <button class="btn-login">Login</button>
+          
+                <form action="https://api.sheetmonkey.io/form/bkvdWD9z97qt3GdAYgvS7T" method="post" class="card-login">
+                    <label class="textfield">Nome <input type="text" name="Example Header" required /></label>
+                    <label class="textfield">Ano <input type="text" name="Example Header" required /></label>
+                    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                    <input class="btn-login" type="submit" value="Submit" />
+                  </form>
+
             </div>
-        </div>
+        </form>
     </div>
 </body>
 </html>
